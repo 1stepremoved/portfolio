@@ -145,3 +145,22 @@ a {
 a:hover, a:focus, a:active {
   color: #824027;
 }
+
+.project-image-link {
+  display: block;
+  margin-right: 25px;
+  min-width: 350px;
+  max-width: 350px;
+  margin-top: 6px;
+}
+.project-image-link div:hover {
+  
+}
+
+.project-image:hover {
+  opacity: 0.5;
+}
+
+h3.mb-0 span {
+  font-size: 14px;
+}
