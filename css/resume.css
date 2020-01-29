@@ -1,7 +1,14 @@
+:root {
+  --background-color: #727D71;
+  --primary-color: #6D4C3D;
+  --secondary-color: #A39171;
+  --icon-color: #495057;
+}
+
 body {
   font-family: 'Open Sans', serif;
   padding-top: 54px;
-  color: #727D71;
+  color: var(--background-color);
 }
 
 @media (min-width: 992px) {
@@ -40,11 +47,11 @@ h2 {
 }
 
 .list-social-icons a {
-  color: #495057;
+  color: var(--icon-color);
 }
 
 .list-social-icons a:hover {
-  color: #6D4C3D;
+  color: var(--primary-color);
 }
 
 .list-social-icons a .fa-lg {
@@ -56,7 +63,7 @@ h2 {
 }
 
 .list-icons .list-inline-item i:hover {
-  color: #6D4C3D;
+  color: var(--primary-color);
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
@@ -83,7 +90,7 @@ h2 {
   #sideNav .navbar-brand .img-profile {
     max-width: 10rem;
     max-height: 10rem;
-    border: 0.2rem solid rgb(109, 76, 61);
+    border: 0.2rem solid var(--primary-color);
   }
   #sideNav .navbar-collapse {
     display: flex;
@@ -131,23 +138,19 @@ section.resume-section .resume-item .resume-date {
 }
 
 .bg-primary {
-  /* background-color: #BD5D38 !important; */
-  background-color: #727D71 !important;
+  background-color: var(--background-color) !important;
 }
 
 .text-primary {
-  /* color: #BD5D38 !important; */
-  color: #6D4C3D !important;
+  color: var(--primary-color) !important;
 }
 
 a {
-  /* color: #BD5D38; */
-  color: #A39171;
+  color: var(--secondary-color);
 }
 
 a:hover, a:focus, a:active {
-  /* color: #824027; */
-  color: #6D4C3D;
+  color: var(--primary-color)
 }
 
 .project-image-link {
