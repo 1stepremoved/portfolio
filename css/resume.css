@@ -83,7 +83,7 @@ h2 {
   #sideNav .navbar-brand .img-profile {
     max-width: 10rem;
     max-height: 10rem;
-    border: 0.5rem solid rgba(212,90,76,1);
+    border: 0.2rem solid rgb(107, 67, 68);
   }
   #sideNav .navbar-collapse {
     display: flex;
@@ -132,22 +132,22 @@ section.resume-section .resume-item .resume-date {
 
 .bg-primary {
   /* background-color: #BD5D38 !important; */
-  background-color: #778899 !important;
+  background-color: #1e9971 !important;
 }
 
 .text-primary {
   /* color: #BD5D38 !important; */
-  color: #d45a4c !important;
+  color: #6b4344 !important;
 }
 
 a {
   /* color: #BD5D38; */
-  color: #d45a4c;
+  color: #6b4344;
 }
 
 a:hover, a:focus, a:active {
   /* color: #824027; */
-  color: #BD5D38;
+  color: #876361;
 }
 
 .project-image-link {
